@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout from scm'){
             steps{
-                git branch: 'main', credentialsId: 'github' url: 'https://github.com/gogulanikhil/devops-full-project'
+                git branch: 'main', url: 'https://github.com/gogulanikhil/devops-full-project'
             }
         }
     }
